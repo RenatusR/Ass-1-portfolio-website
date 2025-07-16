@@ -82,18 +82,28 @@ nav ul li {
 
 .productive-user-section{
     width: auto;
-    background-color:wheat;
-    margin: 115px 159px auto 141px;
-    padding: 20px;
+    background-color:#4E47FF;
+    margin: 115px 159px 115px 141px;
+    
     border-radius: 10px;
     text-align: center;
 
+}
+.productive-user-section , user-header{
+    padding-top:30px ;
+   
+}
+.user-header{
+    font-size: 34px;
 }
 
 .user-section-title{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.user-title{
+    padding:30px 42px 50px 42px ;
 }
 .user-subtile{
     font-size: 75px;
@@ -106,8 +116,10 @@ nav ul li {
     
     text-align: center;
     gap: 24px;
-    border: 23px;
+    border: 440px;
     border-radius: 15px;
+    margin:137px 149px 135px 159px;
+    padding:0px 50px 0px 0px ;
    
 }
 
@@ -122,8 +134,9 @@ nav ul li {
     display: flex;
     text-align: left;
     gap: 20px;
-    border: 20px 15px;
-    border-radius: 15px;
+    border: 20px 30px;
+    border-radius: 30px;
+    
     
   
     
@@ -132,12 +145,14 @@ nav ul li {
 }
 .feedback{
     border: 20px 15px;
-    background-color: aqua;
+    background-color:#FFFFFF;
+    padding-left: 12px;
     
 }
 .users{
     display: flex;
     gap: 20px;
+    color:#757575;
 }
 
 /* hero1 styles */
